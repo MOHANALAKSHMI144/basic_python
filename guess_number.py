@@ -47,3 +47,9 @@ while guess_count < 5:
         print("Invalid input. Please enter a valid number.")
 else:
     print("Game over! The number was", number_to_guess)
+  output:
+Guess a number between 1 and 20: 18
+Too High
+Guess a number between 1 and 20: 15
+Correct! You guessed it in 3 tries.
+
