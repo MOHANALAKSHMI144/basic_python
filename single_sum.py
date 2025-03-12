@@ -20,3 +20,14 @@ Example
   Output: 2
 
 """
+def sum_of_digits(n):
+    while n >= 10:  
+        n = sum(int(digit) for digit in str(n))  
+    return n
+num = int(input("Enter a number: "))
+
+result = sum_of_digits(num)
+print("Output:", result)
+output:
+Enter a number: 124
+Output: 7
